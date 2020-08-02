@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bginfo" />
+
+    <ImageButton
+        android:id="@+id/diagnosa"
+        android:layout_width="105dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="32dp"
+        android:background="#fafafa"
+        android:onClick="diagnosa"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/buttondiagnosa" />
+
+
+    <ImageButton
+        android:id="@+id/infopenyakit"
+        android:layout_width="105dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="32dp"
+        android:background="#fafafa"
+        android:onClick="infopenyakit"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/buttoninfopenyakit" />
+
+    <ImageButton
+        android:id="@+id/bantuan"
+        android:layout_width="105dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="24dp"
+        android:background="#fafafa"
+        android:onClick="bantuan"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diagnosa"
+        app:srcCompat="@drawable/buttonbantuan" />
+
+    <ImageButton
+        android:id="@+id/tentang"
+        android:layout_width="105dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="24dp"
+        android:background="#fafafa"
+        android:onClick="tentang"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infopenyakit"
+        app:srcCompat="@drawable/buttontentang" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

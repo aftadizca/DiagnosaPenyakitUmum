@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".faringitis">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/faringitsisakit" />
+
+    <TextView
+        android:id="@+id/faringitis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/doctorsoosbold"
+        android:text="Penyakit Faringitis"
+        android:textAlignment="center"
+        android:textColor="#D0E079"
+        android:textSize="40dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D0E079"
+                android:textAlignment="center"
+                android:fontFamily="serif"
+                android:text="Definisi"
+                android:textSize="20dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Faringitis adalah peradangan pada selaput lendir yang melapisi bagian belakang tenggorokan atau faring. Peradangan ini bisa menyebabkan ketidaknyamanan, kekeringan, dan kesulitan menelan."
+                android:textAlignment="viewStart"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D0E079"
+                android:textAlignment="center"
+                android:fontFamily="serif"
+                android:text="Gejala"
+                android:textSize="20dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="179dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Masa inkubasi faringitis adalah jarak waktu sejak terpapar infeksi sampai gejala-gejala pertama kali muncul berlangsung sekitar 2-5 hari. Gejala faringitis yang muncul bisa bervariasi, tergantung pada kondisi yang menyebabkannya. Selain itu, gatal dan sakit tenggorokan, gejala flu juga bisa menjadi pertanda faringitis, seperti bersin-bersin, hidung berair, sakit kepala, batuk, kelelahan, nyeri otot, dan demam. Terkadang gejala yang muncul juga bisa berupa rasa nyeri di telinga. Jika laring menyerang suara, pengidap akan mengalami suara serak."
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D0E079"
+                android:textAlignment="center"
+                android:fontFamily="serif"
+                android:text="Faktor Terjadinya Faringitis"
+                android:textSize="20dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Berikut beberapa faktor yang dapat meningkatkan terjadinya penyakit faringitis."
+                android:textAlignment="viewStart"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="383dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="1. Udara dingin luar ruagan"
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="383dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="2. Turubnnya daya tahan tubuh."
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="3. Kurangnya gizi pada makanan yang dikonsumsi."
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="#D0E079"
+                android:fontFamily="serif"
+                android:text="Cara Penyembuhan"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Perawatan secara mandiri dapat dilakukan ketika penyakit faringitis terjangkit pada anak-anak, dengan cara tidak memakan makanan yang pedas, panas, dan berminyak, serta perbanyak meminum air putih atau cairan lainnya yang dapat melegakan tenggorokan, dan perbanyak minum minuman hangat."
+                android:textAlignment="viewStart"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

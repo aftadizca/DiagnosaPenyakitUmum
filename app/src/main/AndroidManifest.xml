@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anfal.diagnosapenyakitumum">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Diagnosa3"></activity>
+        <activity
+            android:name=".profilpakar"
+            android:parentActivityName=".tentang" />
+        <activity android:name=".hasildiagnosa_berhasil" />
+        <activity android:name=".hasilvertigo" />
+        <activity android:name=".hasilmaag" />
+        <activity android:name=".hasilispa" />
+        <activity android:name=".hasildiare" />
+        <activity android:name=".hasilfaringitis" />
+        <activity android:name=".hasiltifus" />
+        <activity android:name=".diagnosa2" />
+        <activity android:name=".vertigo" />
+        <activity
+            android:name=".ispa"
+            android:parentActivityName=".infopenyakit" />
+        <activity
+            android:name=".diare"
+            android:parentActivityName=".infopenyakit" />
+        <activity
+            android:name=".maag"
+            android:parentActivityName=".infopenyakit" />
+        <activity
+            android:name=".faringitis"
+            android:parentActivityName=".infopenyakit" />
+        <activity
+            android:name=".tifus"
+            android:parentActivityName=".infopenyakit" />
+        <activity
+            android:name=".diagnosa"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".tentang"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".bantuan"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".infopenyakit"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

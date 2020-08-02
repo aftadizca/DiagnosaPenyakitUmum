@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ispa">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:src="@drawable/ispasakit"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/doctorsoosbold"
+        android:text="Penyakit ISPA"
+        android:textAlignment="center"
+        android:textColor="#D0E079"
+        android:textSize="40dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="#D0E079"
+                android:fontFamily="serif"
+                android:text="Definisi"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Infeksi saluran pernapasan akut (ISPA) merupakan infeksi akut yang menyerang satu komponen saluran pernapasan, tepatnya pernapasan bagian atas. Bagian saluran pernapasan atas yang terkena dapat meliputi hidung, sinus, faring, dan laring."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="12dp"
+                android:background="#D0E079"
+                android:fontFamily="serif"
+                android:text="Gejala"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Gejala pada penyakit ISPA tidak hanya satu atau dua gejala saja, infeksi pernafasan ini bisa menimbulkan berbagai keluhan, diantaranya :"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="1. Hidung tersumbat dan pilek."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="2. Batuk yang tidak disertai dengan dahak, atau batuk kering."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="3. Terjadi demam ringan pada tubuh anak."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="4. Nyeri pada tenggorokan yang disebabkan oleh pilek."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="5. Bernafas secara cepat ataupun susah bernafas pada anak."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="6. Warna kebiruan pada kulit, yang disebabkan oleh kurangnya oksigen."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="12dp"
+                android:background="#D0E079"
+                android:fontFamily="serif"
+                android:text="Faktor Penyebab ISPA"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Beberapa faktor dapat meninggkatkan resiko terjangkit ISPA pada anak, diantaranya :"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="1. Anak-anak yang lahir prematur, atau memiliki riwayat penyakit bawaan paru-paru atau jantung."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="2. Anak-anak dengan sistem kekebalan tubuh yang lemah."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="3. Bayi dari usia 6 bulan atau anak-anak dibawah 1 tahun(balita)."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="4. Bayi atau anak-anak di tengah keramaian."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="12dp"
+                android:background="#D0E079"
+                android:fontFamily="serif"
+                android:text="Cara Penyembuhan"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Beberapa pengobatan yang biasa dianjurkan oleh dokter yaitu :"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="1. Meminum obat untuk meredakan demam dan nyeri tubuh."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="2. Mengkonsumsi obat batuk."
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="3. Mengkonsusmsi obat untuk meredakan peradangan dan pembengkakan pada pernafasan bagian atas (seperti hidung,kerongkongan/tenggorokan)"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="4. Mengkonsumsi obat pembunuh bakteri jika penyakit disebabkan oleh bakteri mikroorganisme, sesuai anjuran dokter."
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

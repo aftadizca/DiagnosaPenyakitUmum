@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".vertigo">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/vertigosakit"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Penyakit Vertigo"
+        android:fontFamily="@font/doctorsoosbold"
+        android:textSize="30dp"
+        android:textColor="#D0E079"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:text="Definisi"
+                android:fontFamily="serif"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:background="#D0E079"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Vertigo merupakan gejala dimana diri sendiri atau sekeliling terasa sedang berputar dan terjadi secara tiba-tiba. Gejala atas serangan vertigo berbeda-beda, ada yang ringan dan tidak terasa dan ada yang parah, serta bisa menghambat rutinitas seseorang karena bisa menyebabkan hilang keseimbangan dan disorientasi"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="10dp"
+                android:text="Gejala"
+                android:fontFamily="serif"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:background="#D0E079"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Gejala yang umum terjadi adalah terasa benda di sekeliling berjalan memutar dengan diikuti telinga berdengung. Hal tersebut membuat rasa mual dan ingin muntah tidak bisa terhindarkan. Jika penyakit vertigo itu terus berlanjut, biasanya pengidap dapat terjatuh karena tidak kuat berdiri. Bahkan, apabila telah berbaring dan menutup mata, pengidap akan tetap merasa tubuhnya berputar-putar dan rasa berdebar hingga dapat menyebabkan pingsan."
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="10dp"
+                android:text="Faktor Penyebab Vertigo"
+                android:fontFamily="serif"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:background="#D0E079"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Berikut ini beberapa faktor risiko yang bisa meningkatkan gejala vertigo menyerang seseorang :"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="1. Pernah atau sedang mengidap luka di kepala."
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="2. Ada anggota keluarga yang memiliki riwayat vertigo."
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="3. Mengalami infrksi di telinga, yang bisa mengakibatkan syaraf terganggu."
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="10dp"
+                android:text="Cara Pengobatan"
+                android:fontFamily="serif"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:background="#D0E079"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="ada beberapa cara untuk pengobatan vertigo, dengan melakukan pijatan sederhana bagian kepala, mengkonsumsi teh dan jahe, pemberian obat, dan mengkonsumsi cukup air putih yang cukup."
+                android:textSize="15dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

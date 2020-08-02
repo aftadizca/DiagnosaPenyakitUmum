@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".maag">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/maagsakit"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/doctorsoosbold"
+        android:textColor="#D0E079"
+        android:text="Penyakit Maag"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="#D0E079"
+                android:text="Definisi"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:fontFamily="serif"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Sakit maag alias dispepsia adalah rasa nyeri dan tidak nyaman pada lambung yang disebabkan oleh sejumlah kondisi. Jadi, sakit maag bukanlah sebuah penyakit, melainkan gejala dari penyakit. Umumnya, sakit maag disebabkan oleh luka terbuka yang terjadi di lapisan dalam lambung (tukak lambung), infeksi bakteri Helicobacter pylori, efek samping konsumsi obat anti inflamasi nonsteroid (OAINS) dan stres."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="#D0E079"
+                android:text="Gejala"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:fontFamily="serif"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Gejala yang dialami saat mengidap sakit maag antara lain : "/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="1. Cepat merasa kenyang saat makan, dan merasa kenyang berkepanjangan saat sesudah makan."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="2. Kembung pada perut bagian atas."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="3. Sering bersendawah."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="4. Merasa mual."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="5. Nyeri pada ulu hati dan pada dada bagian tengah."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="6. Rasa panas dalam dada yang diakibatkan oleh asam lambung yang meningkat."
+                android:layout_width="match_parent"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="10dp"
+                android:background="#D0E079"
+                android:text="faktor Penyebab Maag"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:fontFamily="serif"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Ada beberapa faktor yang dapat meningkatkan resiko terkena penyakit maag ini. Namun ada beberapa faktor yang dapat meningkatkan resiko terkena maag, antara lain,"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="1. Adanya masalah emosional, seperti stress atau depresi, sehingga membuat asam pada lambung meningkat."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="2. Terlalu banyak makan dan makan terlalu cepat."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="3. Sering mengkonsumsi makanan berminyak, pedas dan berlemak."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="4. Berlebihan/terlalu banyak dalam mengkonsumsi minuman bersoda dan berkafein."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="5. Kelebihan berat badan juga bisa memicu terjadinya maag."
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="#D0E079"
+                android:text="Cara Penyembuhan"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:fontFamily="serif"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Pengobatan pada penyakit maag tergantung dari seberapa parah tingkat gejalanya dan penyebab penyakit maag. Perubahan pada pola hidup juga dapat meredakan penyakit maag, diantaranya : "/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="1. Mengurangi makan makanan yang berlemak, berminyak, dan pedas."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="2. Mengurangi meminum minuman bersoda atau berkafein seperti kopi, yang dapat memicu asam lambung."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="3. Mengkonsumsi obat pereda asam lambung, bisa berupa oral (pil) dan cair."
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="4. Tidur selama 7 jam saat malam untuk meredakan maag ringan."
+                android:layout_width="match_parent"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

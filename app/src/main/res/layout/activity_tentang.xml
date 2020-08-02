@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tentang">
+
+    <ImageView
+        android:id="@+id/gambarlogo"
+        android:layout_width="207dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/doctorsoosbold"
+        android:text="DIAGNOSA PENYAKIT UMUM"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambarlogo" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Sistem Pakar"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambarlogo" />
+
+
+    <TextView
+        android:id="@+id/dibuatoleh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/doctorsoosbold"
+        android:text="Dibuat oleh :"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Nama             :  Anfal Nusa Dirgantara \n\nNIM                   :  143216051\n\nProdi               :  T.Informatika \n\nUniversitas   :  Universitas maarif hasyim latif"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/dibuatoleh"
+        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintStart_toStartOf="@+id/dibuatoleh"
+        app:layout_constraintTop_toBottomOf="@+id/dibuatoleh" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/textView2"
+        android:layout_width="258dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/calibriregular"
+        android:text="Sistem Pakar Diagnosa penyakit umum Dibuat berdasarkan pada data yang diperoleh dari pakar (Dokter). Diharapkan dengan adanya aplikasi sistem pakar diagnosa penyakit ini, dapat membantu orang tua untuk mendeteksi gejala penyakit secara dini,dan sebagai penanganan awal penyakit, bukan digunakan sebagai pengganti dokter."
+        android:textAlignment="gravity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/profilpakar"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="52dp"
+        android:onClick="profilpakar"
+        app:layout_constraintEnd_toEndOf="@+id/nama"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@+id/nama"
+        app:layout_constraintTop_toBottomOf="@+id/nama"
+        app:srcCompat="@drawable/buttonprofilpakar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

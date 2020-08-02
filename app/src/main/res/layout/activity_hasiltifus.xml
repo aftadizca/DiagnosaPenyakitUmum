@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".hasiltifus">
+
+    <ImageView
+        android:layout_width="302dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/tifussakit"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/doctorsoosbold"
+        android:text="Sikecil mengalami gejala"
+        android:textAlignment="center"
+        android:textColor="#D0E079"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/tifus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/doctorsoosbold"
+        android:text="Penyakit Tifus"
+        android:textAlignment="center"
+        android:textColor="#D0E079"
+        android:textSize="40dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D0E079"
+                android:fontFamily="serif"
+                android:text="Gejala"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Demam yang meningkat pada sore dan malam hari dan turun pada pagi hari. Gangguan pada saluran pencernaan yang menimbulkan nyeri pada perut, konstipasi hingga diare. Mual dan muntah. Nyeri kepala yang berat."
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D0E079"
+                android:fontFamily="serif"
+                android:text="Cara Penyembuhan"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="1. Vaksin Oral, dengan cara meminum obat berbentuk pil yang didapatkan dari resep dokter."
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="2. Vaksin Injeksi, vaksin injeksi dapat diberikan untuk seorang anak yang dengan usia minimal 2 tahun, dan harus diberikn paling tidak 2 minggu sebelum bepergian."
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D0E079"
+                android:fontFamily="serif"
+                android:text="Faktor Terjadinya Tifus"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="Berikut beberapa faktor yang dapat meningkatkan terjadinya penyakit tifus ini."
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="1. Sanitasi (sumber air tau perairan) buruk."
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="2. Tidak mencuci tangan hendak makan."
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="3. Menggunakan toilet yang sudah terkontaminsi bakteri"
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/doctorsooslight"
+                android:text="4. Mengkonsumsi sayuran atau buah-buahan yang menggunakan pupuk dari kotoran manusia yang telah terinfeksi."
+                android:textAlignment="viewStart"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
