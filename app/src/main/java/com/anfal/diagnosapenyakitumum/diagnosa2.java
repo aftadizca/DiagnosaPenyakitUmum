@@ -91,8 +91,8 @@ ArrayList<String> listGejala;
                 currentNode = node;
             }
         }
-        i.putExtra("list_gejala", listGejala);
-        i.putExtra("current_node",currentNode);
+        i.putExtra(Constant.LIST_GEJALA, listGejala);
+        i.putExtra(Constant.CURRENT_NODE, currentNode);
         startActivity(i);
     }
 }
