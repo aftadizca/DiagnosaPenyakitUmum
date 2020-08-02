@@ -17,6 +17,7 @@ public class Diagnosa3 extends AppCompatActivity implements View.OnClickListener
 
     TextView pertanyaanDiagnosa;
     GejalaPenyakit gejalaPenyakit;
+    Penyakit penyakit;
     ArrayList<String> listGejala;
     TreeNode<String> currentNode;
     TreeNode<String> nextNode;
@@ -65,38 +66,40 @@ public class Diagnosa3 extends AppCompatActivity implements View.OnClickListener
         Log.d("TEST","nextNode_size : "+nextNode.subtrees().size());
 
         if(nextNode.subtrees().size() == 0){
-            Intent i = new Intent(Diagnosa3.this, hasildiagnosa_berhasil.class);
-            i.putExtra(Constant.KODE_PENYAKIT, nextNode.data());
-            i.putExtra(Constant.LIST_GEJALA, listGejala);
-            startActivity(i);
-
-            switch (nextNode.data()){
-                case "P1":
-                    Intent tifus = new Intent(Diagnosa3.this,hasiltifus.class);
-                    startActivity(tifus);
-                    break;
-                case "P2":
-                    Intent faringitis = new Intent(Diagnosa3.this,hasilfaringitis.class);
-                    startActivity(faringitis);
-                    break;
-                case "P3":
-                    Intent diare = new Intent(Diagnosa3.this,hasildiare.class);
-                    startActivity(diare);
-                    break;
-                case "P4":
-                    Intent ispa = new Intent(Diagnosa3.this,hasilispa.class);
-                    startActivity(ispa);
-                    break;
-                case "P5":
-                    Intent maag = new Intent(Diagnosa3.this,hasilmaag.class);
-                    startActivity(maag);
-                    break;
-                case "P6":
-                    Intent vertigo = new Intent(Diagnosa3.this,hasilvertigo.class);
-                    startActivity(vertigo);
-                    break;
+            penyakit = new Penyakit();
+            int countDetectedGejala = listGejala.size();
+            int countGejala = penyakit.getGejala(nextNode.data());
+            if((float)countDetectedGejala/(float)countGejala <= 0.5){
+                Intent i = new Intent(Diagnosa3.this, hasildiagnosa_berhasil.class);
+                startActivity(i);
+            }else{
+                switch (nextNode.data()){
+                    case "P1":
+                        Intent tifus = new Intent(Diagnosa3.this,hasiltifus.class);
+                        startActivity(tifus);
+                        break;
+                    case "P2":
+                        Intent faringitis = new Intent(Diagnosa3.this,hasilfaringitis.class);
+                        startActivity(faringitis);
+                        break;
+                    case "P3":
+                        Intent diare = new Intent(Diagnosa3.this,hasildiare.class);
+                        startActivity(diare);
+                        break;
+                    case "P4":
+                        Intent ispa = new Intent(Diagnosa3.this,hasilispa.class);
+                        startActivity(ispa);
+                        break;
+                    case "P5":
+                        Intent maag = new Intent(Diagnosa3.this,hasilmaag.class);
+                        startActivity(maag);
+                        break;
+                    case "P6":
+                        Intent vertigo = new Intent(Diagnosa3.this,hasilvertigo.class);
+                        startActivity(vertigo);
+                        break;
+                }
             }
-
         }
 
         pertanyaanDiagnosa.setText("Apakah anda mengalami gejala "+gejalaPenyakit.getGejalaPenyakit(nextNode.data())+" ?");

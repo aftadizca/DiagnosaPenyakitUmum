@@ -37,16 +37,13 @@ public class hasildiagnosa_berhasil extends AppCompatActivity {
         hasilDiagnosa = findViewById(R.id.hasil_diagnosa);
         btnGoHome = findViewById(R.id.btn_go_home);
         btnInfoPenyakit = findViewById(R.id.btn_go_info);
+//
+//        int countDetectedGejala = listGejala.size();
+//        int countGejala = penyakit.getGejala(kodePenyakit);
 
-        int countDetectedGejala = listGejala.size();
-        int countGejala = penyakit.getGejala(kodePenyakit);
 
-        if((float)countDetectedGejala/(float)countGejala >= 0.5){
-            hasilDiagnosa.setText(String.format("Anda mengalami %s gejala dari %s gejala penyakit %s",countDetectedGejala,countGejala, penyakit.getPenyakit(kodePenyakit)));
-        }else{
-            hasilDiagnosa.setText("Mohon maaf, kami tidak bisa mendiagnosa penyakit berdasarkan gejala yang anda alami.");
-            btnInfoPenyakit.setVisibility(View.INVISIBLE);
-        }
+        hasilDiagnosa.setText("Mohon maaf, kami tidak bisa mendiagnosa penyakit berdasarkan gejala yang anda alami.");
+        btnInfoPenyakit.setVisibility(View.INVISIBLE);
 
         btnGoHome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,39 +51,6 @@ public class hasildiagnosa_berhasil extends AppCompatActivity {
                 onBackPressed();
             }
         });
-
-//        btnInfoPenyakit.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                switch (kodePenyakit){
-//                    case "P1":
-//                        Intent i = new Intent(hasildiagnosa_berhasil.this,tifus.class);
-//                        startActivity(i);
-//                        break;
-//                    case "P2":
-//                        Intent i = new Intent(hasildiagnosa_berhasil.this,tifus.class);
-//                        startActivity(i);
-//                        break;
-//                    case "P3":
-//                        Intent i = new Intent(hasildiagnosa_berhasil.this,tifus.class);
-//                        startActivity(i);
-//                        break;
-//                    case "P4":
-//                        Intent i = new Intent(hasildiagnosa_berhasil.this,tifus.class);
-//                        startActivity(i);
-//                        break;
-//                    case "P5":
-//                        Intent i = new Intent(hasildiagnosa_berhasil.this,tifus.class);
-//                        startActivity(i);
-//                        break;
-//                    case "P6":
-//                        Intent i = new Intent(hasildiagnosa_berhasil.this,tifus.class);
-//                        startActivity(i);
-//                        break;
-//                }
-//            }
-//        });
-
     }
 
     @Override
